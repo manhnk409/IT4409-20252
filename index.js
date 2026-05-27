@@ -6,7 +6,7 @@ const cors = require("cors");
 const app = express();
 app.use(cors());
 app.use(express.json());
-
+//test
 mongoose.connect(process.env.MONGODB_URI)
 .then(() => {
 console.log("Connected to MongoDB");
