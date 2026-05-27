@@ -4,6 +4,8 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const app = express();
+const crypto = require("crypto");
+global.crypto = crypto;
 app.use(cors());
 app.use(express.json());
 //test
